@@ -6,7 +6,7 @@ set(PROJECT_NAME "hello-unikernel")
 set(PROJECT_TARGET_NAME "hello-unikernel")
 
 project(${PROJECT_NAME}
-        DESCRIPTION "LibUV asynchronous TCP and json-c hello world unikernel example"
+        DESCRIPTION "LibUV asynchronous UDP and JSON-C hello world example for the 2022 Munich Unikraft hackathon"
         VERSION 1.0
         LANGUAGES C)
 
@@ -32,9 +32,9 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/CMake/Modules")
 
 ## LibUV
 find_package(LibUV  REQUIRED)
-find_package(JSON-C REQUIRED)
 
 ## Json-C
+find_package(JSON-C REQUIRED)
 
 #--------------------------------------------------------------
 # Target

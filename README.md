@@ -1,6 +1,6 @@
 # Hello unikernel
 
-Hello world app implementing a LibUV UDP echo server and greet/goodbye messages via json-c.
+Hello world app implementing a LibUV UDP echo server and greet/goodbye messages via JSON-C.
 Made for the 2022 Munich Unikraft Hackathon.
 
 ## Build
